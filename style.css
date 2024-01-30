@@ -1,0 +1,329 @@
+:root {
+  --font-family: Arial;
+}
+
+.body {
+  margin: 0px;
+  width: 100%;
+  background-color: white;
+  line-height: 1.588235294117647em;
+  background-color: white;
+  min-height: 100%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  display: block;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2d2d48;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0%;
+  padding-top: 2%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 12px 50px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-left: -35px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.fa {
+  content: "<";
+}
+
+.pwr-hero__title {
+  font-family: var(--font-family);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.3333333333333333em;
+  max-width: 800px;
+  text-transform: none;
+  letter-spacing: -0.75px;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-rendering: optimizeLegibility;
+  margin-top: 0%;
+  color: white;
+  padding-top: 10%;
+  padding-left: 20%;
+}
+
+.dwolla-modern {
+  box-sizing: border-box;
+  display: block;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  padding-left: 20%;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  padding-right: 10%;
+}
+
+.meet-with {
+  border: 0;
+  border-radius: 4px;
+  display: inline-block;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  opacity: 1;
+  overflow: hidden;
+  padding: 15px 21px;
+  position: relative;
+  text-transform: none;
+  z-index: 0;
+  box-sizing: content-box;
+  vertical-align: middle;
+  padding-left: 1%;
+  text-decoration: none;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+  background-color: #ca4c24;
+  transition: all 0.4 ease-in-out;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: white;
+  border-radius: 4px;
+}
+
+.pwr-sec-clients__slider {
+  display: flex;
+
+  background-color: rgba(241, 247, 250, 1) !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  padding-left: 10%;
+  width: auto;
+}
+
+.powering-payment-header {
+  font-size: 36px;
+  color: #1f1f32;
+  font-weight: 600;
+  font-family: "Roboto", Arial, Arial;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0px;
+  line-height: 1.3333333333333333em;
+  box-sizing: border-box;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+  padding-top: 3%;
+  margin-left: 10%;
+}
+
+.powering-tabs {
+  font-weight: 500;
+  margin-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.pwr-tabs__tab-wrapper {
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: calc(100% + 30px);
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.pwr-tabs__tab {
+  transition-duration: 0.4s;
+  transition-property: color, opacity, border-color, width;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  min-height: 57px;
+  min-width: 80px;
+  padding-left: 8%;
+}
+
+.pwr-tabs__tab--active,
+.pwr-tabs__tab--active:hover {
+  border-bottom: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
+  font-weight: 700;
+  text-align: -webkit-match-parent;
+}
+
+.pwr-tabs__dropdown {
+  display: none;
+}
+
+.pwr-form select option {
+  font-weight: 400;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+section {
+  font-family: "Roboto", Arial, Arial;
+  font-size: 16px;
+  color: #1f1f32;
+  /* font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-variant-alternates: ;
+  font-variant-position: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ;
+  font-optical-sizing: ;
+  font-kerning: ;
+  font-feature-settings: ;
+  font-variation-settings: ; */
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  -webkit-rtl-ordering: logical;
+  cursor: default;
+  white-space: pre;
+}
+
+.pwr-tabs__content--2col .pwr-tab__content--left {
+  margin-right: 40px;
+}
+.pwr-tabs__content--2col .pwr-tab__content {
+  float: left;
+  width: calc(50% - 20px);
+}
+.pwr-rich-text > :first-child {
+  margin-top: 0;
+}
+.pwr-rich-text {
+  line-height: 1.75em;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+.pwr--light {
+  background-color: white;
+  color: #1f1f32;
+}
+
+#digital-payments-for-the-insurance-industry {
+  color: #1f1f32;
+  font-size: 30px;
+  padding-left: 0%;
+  font-family: "Roboto", Arial, Arial;
+}
+
+.pwr-rich-text {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: black;
+  padding-left: 5%;
+}
+
+.pwr-rich-text p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.7em;
+  color: #1f1f32;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
