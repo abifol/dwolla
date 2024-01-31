@@ -333,8 +333,8 @@ user agent stylesheet div {
 
 .page-center {
   float: none;
-  margin: 0 auto;
-  max-width: 1200px;
+  /* margin: 0 auto; */
+  max-width: 100%;
 }
 
 .pwr-sec-stats__wrapper:not(.page-center) {
