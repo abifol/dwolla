@@ -18,8 +18,6 @@
   overflow: hidden;
   background-color: #2d2d48;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 0px;
-  padding-left: 0%;
   padding-top: 1%;
   padding-right: 0%;
   padding-bottom: 10px;
@@ -361,11 +359,6 @@ user agent stylesheet div {
   padding: 80px 0;
 }
 
-.pwr--neg-margin-lr-10 {
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
 .pwr-sec-steps--centered .pwr-step {
   padding-left: 10px;
   padding-right: 10px;
@@ -437,21 +430,6 @@ user agent stylesheet div {
   ) !important;
 }
 
-.dnd-section > .row-fluid {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.row-fluid .span12 {
-  min-height: 0 !important;
-}
-.row-fluid [class*="span"] {
-  min-height: 1px;
-}
-.dnd-section .dnd-column {
-  padding: 0;
-}
-
 .pwr-sec-cta--vertical {
   padding: 95px 0;
 }
@@ -516,4 +494,103 @@ user agent stylesheet div {
   position: relative;
   text-transform: none;
   z-index: 0;
+}
+
+.pwr-heading-style--h2,
+h2 {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: var(--ls-h2);
+  line-height: 1.3333333333333333em;
+}
+
+.pwr-stat__number,
+.pwr-stat__suffix {
+  display: inline-block;
+  font-family: "Poppins", Arial;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1em;
+  word-break: break-all;
+}
+
+.pwr-stats--centered {
+  text-align: center;
+  padding-left: 100px;
+}
+
+.pwr-stat__title {
+  display: block;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: var(--tt-title);
+}
+
+.dnd-section > .row-fluid {
+  margin-top: 0%;
+  padding-top: 0%;
+  max-width: 100%;
+}
+
+.row-fluid .span12 {
+  min-height: 0 !important;
+}
+.row-fluid [class*="span"] {
+  min-height: 1px;
+}
+.dnd-section .dnd-column {
+  padding: 0;
+}
+
+.pwr-sec-testimonials {
+  overflow: hidden;
+  padding: 130px 0 135px;
+  position: relative;
+  z-index: 0;
+}
+
+.pwr--sec-padding-b-md {
+  padding-bottom: 80px !important;
+}
+
+.pwr--sec-padding-t-md {
+  padding-top: 80px !important;
+}
+
+.pwr-rich-text:not(.pwr-sec-txt__left) > :last-child,
+.pwr-rich-text:not(.pwr-tab__content--left) > :last-child {
+  margin-bottom: 0;
+}
+.pwr-rich-text > :first-child {
+  margin-top: 0;
+}
+
+.pwr-testimonial__quote {
+  font-size: 18px;
+  line-height: 2em;
+  margin: 0 auto 40px;
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+}
+
+.pwr--dark {
+  background-color: var(--clr-background-dk);
+  color: white;
+}
+
+.pwr-testimonial__author {
+  display: table;
+  margin: 0 auto;
+}
+
+.pwr-testimonial__info {
+  display: table-cell;
+  font-family: "Poppins", Arial;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+.pwr-testimonial__name {
+  font-weight: 700;
 }
