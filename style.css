@@ -92,6 +92,25 @@
   background-color: #ddd;
 }
 
+.cta_button {
+  transition: background-color 0.5s, color 0.5s ease;
+}
+
+.cta_button:hover {
+  background-color: white;
+  color: #1f1f32;
+  transform: scale(1);
+}
+
+.cta_button2 {
+  background-color: #ca4c24;
+  transition: background-color 0.5s, color 0.5s ease;
+}
+.cta_button2:hover {
+  background-color: white !important;
+  color: #1f1f32;
+}
+
 .show {
   display: block;
 }
