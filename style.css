@@ -92,14 +92,11 @@
   background-color: #ddd;
 }
 
-.cta_button {
-  transition: background-color 0.5s, color 0.5s ease;
-}
-
 .cta_button:hover {
   background-color: white;
   color: #1f1f32;
-  transform: scale(1);
+  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out,
+    color 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .cta_button2 {
@@ -109,6 +106,8 @@
 .cta_button2:hover {
   background-color: white !important;
   color: #1f1f32;
+  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out,
+    color 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .show {
