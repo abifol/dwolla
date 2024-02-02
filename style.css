@@ -39,6 +39,32 @@
   margin-left: 140px;
 }
 
+@media screen and (max-width: 500px) {
+  .left-heros,
+  .image {
+    width: 70%;
+  }
+}
+
+.heros {
+  height: 100%;
+  width: 100%px;
+}
+
+.left-heros {
+  width: 30%;
+  display: inline-block;
+  height: 100%;
+  margin-right: 100px;
+  padding-right: 0px;
+}
+
+.image {
+  display: inline-block;
+  height: 100%;
+  width: 10%;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
