@@ -37,34 +37,11 @@
   padding-right: 0%;
   background-color: #2d2d48;
   margin-left: 140px;
-}
-
-@media screen and (max-width: 500px) {
-  .left-heros,
-  .image {
-    width: 70%;
-  }
+  width: fit-content;
 }
 
 .heros {
-  height: 100%;
-  width: 100%px;
 }
-
-.left-heros {
-  width: 30%;
-  display: inline-block;
-  height: 100%;
-  margin-right: 100px;
-  padding-right: 0px;
-}
-
-.image {
-  display: inline-block;
-  height: 100%;
-  width: 10%;
-}
-
 .dropdown {
   float: left;
   overflow: hidden;
@@ -213,12 +190,13 @@
   background-color: rgba(241, 247, 250, 1) !important;
   padding-top: 80px !important;
   padding-bottom: 80px !important;
+  padding-left: 155px !important;
   padding-left: 0%;
   width: 100%;
 }
 
-.powering-payment-header {
-  font-size: 22px;
+#powering-payment-header {
+  font-size: 50px !important;
   color: #1f1f32;
   font-weight: 600;
   font-family: "Roboto", Arial, Arial;
@@ -280,8 +258,8 @@
 
 .pwr-tabs__tab--active,
 .pwr-tabs__tab--active:hover {
-  border-bottom: 2px solid var(--clr-primary);
-  color: var(--clr-primary);
+  border-bottom: 2px solid 1px;
+  color: #1f1f32;
   font-weight: 700;
   text-align: -webkit-match-parent;
 }
@@ -309,14 +287,7 @@
 .pwr-rich-text {
   line-height: 1.75em;
 }
-*,
-:after,
-:before {
-  box-sizing: border-box;
-}
-user agent stylesheet div {
-  display: block;
-}
+
 .pwr--light {
   background-color: white;
   color: #1f1f32;
@@ -375,7 +346,7 @@ user agent stylesheet div {
 
 .page-center {
   float: none;
-  padding-left: 200px;
+  padding-left: 0px;
   max-width: 100%;
 }
 
@@ -399,8 +370,9 @@ user agent stylesheet div {
   padding-top: 40px !important;
   padding-bottom: 40px !important;
 }
+
 .dnd-section {
-  padding: 80px 0;
+  padding: 80px 10px 0px 10px;
 }
 
 .pwr-sec-steps--centered .pwr-step {
@@ -619,7 +591,7 @@ h2 {
 }
 
 .pwr--dark {
-  background-color: var(--clr-background-dk);
+  background-color: #1f1f32;
   color: white;
 }
 
