@@ -41,7 +41,31 @@
 }
 
 .heros {
+  width: 100%;
+  height: 100%;
+  background-color: #2d2d48;
+  padding-top: 5%;
 }
+
+.left-heros {
+  width: 50%;
+  display: inline-block;
+}
+
+.image {
+  width: 25%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+  .left-heros,
+  .image,
+  .navbar,
+  .ul {
+    width: 70%;
+  }
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -186,12 +210,13 @@
 
 .pwr-sec-clients__slider {
   display: flex;
-
   background-color: rgba(241, 247, 250, 1) !important;
   padding-top: 80px !important;
   padding-bottom: 80px !important;
-  padding-left: 155px !important;
-  padding-left: 0%;
+  /* padding-left: 155px !important; */
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+  align-content: center;
   width: 100%;
 }
 
