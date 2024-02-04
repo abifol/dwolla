@@ -520,6 +520,8 @@
 .pwr-cta--custom-04 .cta_button:not(.pwr-cta):not(.pwr-cta--hubspot-style),
 .pwr-cta--custom-04 .hs-submit {
   color: #fff;
+  background-color: #1f1f32;
+  text-decoration: none;
 }
 
 .cta_button:not(.pwr-cta--hubspot-style),
