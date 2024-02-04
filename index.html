@@ -1,150 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="./style.css" rel="stylesheet" />
-        <title>DWOLLA</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>DWOLLA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body class="body">
-        <header style="background-color: #2d2d48; width: 100%;" >
-            <nav
-                    class="navbar"
-                    data-mm-anim-fot-reveal="true"
-                    data-mm-anim-slide="true"
-                    data-mm-anim-fade="true">
-                    <div class="navbar-left">
-                    <a href="https://www.dwolla.com/?hsLang=en" aria-label="Back to Home"
-                        ><img
-                        src="https://www.dwolla.com/hubfs/dwolla-logo-white-text_6091c737.svg"
-                        alt="dwolla-logo-white-text_6091c737"
-                        class="pwr-header-logo__img--sticky"
-                        width="156"
-                        height="40"
-                        fetchpriority="low"
-                        decoding="async"
-                        
-                    /></a>
-                    <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction()">
-                        Platform
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown1">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                        </div>
-                    </div>
-                    <script>
-                        function myFunction() {
-                        document.getElementById("myDropdown1").classList.toggle("show");
-                        }
-
-                        // Close the dropdown if the user clicks outside of it
-                        window.onclick = function (e) {
-                        if (!e.target.matches(".dropbtn")) {
-                            var myDropdown = document.getElementById("myDropdown1");
-                            if (myDropdown.classList.contains("show")) {
-                            myDropdown.classList.remove("show");
-                            }
-                        }
-                        };
-                    </script>
-
-                    <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction()">
-                        Solutions
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown2">
-                        <a href="#">link2</a>
-                        <a href="#">link2</a>
-                        <a href="#">link2</a>
-                        </div>
-                    </div>
-                    <script>
-                        function myFunction() {
-                        document.getElementById("myDropdown2").classList.toggle("show");
-                        }
-
-                        // Close the dropdown if the user clicks outside of it
-                        window.onclick = function (e) {
-                        if (!e.target.matches(".dropbtn")) {
-                            var myDropdown = document.getElementById("myDropdown2");
-                            if (myDropdown.classList.contains("show")) {
-                            myDropdown.classList.remove("show");
-                            }
-                        }
-                        };
-                    </script>
-
-                    <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction()">
-                        Developers
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown2">
-                        <a href="#">link2</a>
-                        <a href="#">link2</a>
-                        <a href="#">link2</a>
-                        </div>
-                    </div>
-                    <script>
-                        function myFunction() {
-                        document.getElementById("myDropdown2").classList.toggle("show");
-                        }
-
-                        // Close the dropdown if the user clicks outside of it
-                        window.onclick = function (e) {
-                        if (!e.target.matches(".dropbtn")) {
-                            var myDropdown = document.getElementById("myDropdown2");
-                            if (myDropdown.classList.contains("show")) {
-                            myDropdown.classList.remove("show");
-                            }
-                        }
-                        };
-                    </script>
-
-                    <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction()">
-                        Learn
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown2">
-                        <a href="#">link2</a>
-                        <a href="#">link2</a>
-                        <a href="#">link2</a>
-                        </div>
-                    </div>
-                    <script>
-                        function myFunction() {
-                        document.getElementById("myDropdown2").classList.toggle("show");
-                        }
-
-                        // Close the dropdown if the user clicks outside of it
-                        window.onclick = function (e) {
-                        if (!e.target.matches(".dropbtn")) {
-                            var myDropdown = document.getElementById("myDropdown2");
-                            if (myDropdown.classList.contains("show")) {
-                            myDropdown.classList.remove("show");
-                            }
-                        }
-                        };
-                    </script>
-
-                    <div class="dropdown">
-                        <button class="dropbtn">Pricing</button>
-                    </div>
-
-
-                    <div style=" display: flex; padding-left: 200px;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a
+          class="dwolla-logo"
+          href="https://www.dwolla.com/?hsLang=en"
+          aria-label="Back to Home"
+          ><img
+            src="https://www.dwolla.com/hubfs/dwolla-logo-white-text_6091c737.svg"
+            alt="dwolla-logo-white-text_6091c737"
+            class="pwr-header-logo__img--sticky"
+            width="156"
+            height="40"
+            fetchpriority="low"
+            decoding="async"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Platform
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Solutions
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Developers
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Learn
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <div style=" display: flex; padding-left: 80px; padding-top: 5%; padding-right: 200px;">
 
                         <svg
                         class=""
@@ -215,280 +194,820 @@
                         >Talk to Sales</a
                         >
                     </div>
-                    
-            </nav>
-        </header>
-        <div
-        class="heros">
-            <div class="left-heros" >
-                <h1
-                class="pwr-hero__title pwr-heading-style--default pwr--toc-ignore"
-                tmp-data-aos="fade-in"
-                tmp-data-aos-delay="50"
-                id="digitally-transform-your-payments-through-a-single-solution."
-                >
-                Digitally transform your payments through a single solution.
-                </h1>
-                <div class="dwolla-modern">
-                Dwolla's modern approach replaces legacy technology with a unified and
-                streamlined solution, improving payment security, data visibility and
-                the customer experience.
-                </div>
-                <div class="meet-with-container">
-                <a
-                    class="meet-with"
-                    class="cta_button"
-                    href="https://www.dwolla.com/contact?hsLang=en"
-                    title="Button Meet with a Payments Expert"
-                    >Meet with a Payments Expert</a
-                >
-                </div>
-            </div>
-            <div class="image">
-                <img  src="./assets/images/homepage_hero.webp" style="width:100%; height: auto; padding-bottom: 400px;"/> 
-            </div>
-            
-        </div>
+    </nav>
 
-
-        <div  class="pwr-sec-clients__slider pwr-sec-clients--grid page-center pwr--relative aos-init aos-animate" data-nr-elements="6" data-autoplay="false" data-autoplay-timeout="5000" data-aos="fade-in" data-aos-delay="50">
-            <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale"><img data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/gasbuddy-logo.svg" class="pwr-sec-clients__logo-img ls-is-cached lazyloaded" alt="gasbuddy-logo" width="100%" height="66" style="object-fit: contain;" src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/gasbuddy-logo.svg"></div>
-            <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale"><img data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/goat-logo.svg" class="pwr-sec-clients__logo-img lazyloaded" alt="goat-logo" width="100%" height="66" style="object-fit: contain;" src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/goat-logo.svg"></div>
-            <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale"><img data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/ibotta-logo.svg" class="pwr-sec-clients__logo-img lazyloaded" alt="ibotta-logo" width="100%" height="66" style="object-fit: contain;" src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/ibotta-logo.svg"></div>
-            <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale"><img data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/masterworks-logo.svg" class="pwr-sec-clients__logo-img lazyloaded" alt="masterworks-logo" width="100%" height="23" style="object-fit: contain;" src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/masterworks-logo.svg"></div>
-            <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale"><img data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/mx-logo.svg" class="pwr-sec-clients__logo-img lazyloaded" alt="mx-logo" width="100%" height="66" style="object-fit: contain;" src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/mx-logo.svg"></div>
-            <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale"><img data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/routable-logo.svg" class="pwr-sec-clients__logo-img lazyloaded" alt="routable-logo" width="100%" height="35" style="object-fit: contain;" src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/routable-logo.svg"></div>
+    <div class="heros">
+      <div class="left-heros">
+        <h1
+          class="pwr-hero__title pwr-heading-style--default pwr--toc-ignore"
+          tmp-data-aos="fade-in"
+          tmp-data-aos-delay="50"
+          id="digitally-transform-your-payments-through-a-single-solution."
+        >
+          Digitally transform your payments through a single solution.
+        </h1>
+        <div class="dwolla-modern">
+          Dwolla's modern approach replaces legacy technology with a unified and
+          streamlined solution, improving payment security, data visibility and
+          the customer experience.
         </div>
-
-        <div class="powering-payment-container widget-type-cell dnd-column"  data-widget-type="cell" data-x="0" data-w="12">
-            <div class="powering-payment-header">
-                <h2 id="powering-payment-header">Powering Payments for Every Industry</h2>
-            </div>
-            <div class="powering-tabs">
-                <ul class="pwr-tabs__tab-wrapper  ">
-                    <li class="pwr-tabs__tab pwr-tabs__tab--active" rel="tab1">Insurance</li>
-                    <li class="pwr-tabs__tab" rel="tab2">Lending</li>
-                    <li class="pwr-tabs__tab" rel="tab3">Real Estate</li>
-                    <li class="pwr-tabs__tab" rel="tab4">Healthcare</li>
-                    <li class="pwr-tabs__tab" rel="tab5">Manufacturing</li>
-                </ul>
-                <div class="pwr-form pwr-form--style-1 pwr-tabs__dropdown">
-                    <select>
-                        <option value="tab1">Insurance</option>
-                        <option value="tab2">Lending</option>
-                        <option value="tab3">Real Estate</option>
-                        <option value="tab4">Healthcare</option>
-                        <option value="tab5">Manufacturing</option>
-                    </select>
-                </div>
-            </div>
+        <div class="meet-with-container">
+          <a
+            class="meet-with"
+            class="cta_button"
+            href="https://www.dwolla.com/contact?hsLang=en"
+            title="Button Meet with a Payments Expert"
+            >Meet with a Payments Expert</a
+          >
         </div>
-        
-        <div class="pwr-tabs__body  pwr--clearfix">
-            <div id="tab1" class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix" style="display: block; opacity: 1;" data-active="true">
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
-                    <h4 id="digital-payments-for-the-insurance-industry">Digital Payments for the Insurance Industry</h4>
-                    <p>Dwolla empowers insurance companies to eliminate the outdated payment systems and manual processes that negatively impact cash flow, payment predictability, payment security and policyholder experience.</p>
-                    <ul>
-                        <li><a href="/industries/insurtech-payment-solutions/?hsLang=en" rel="noopener"><span style="color: #ca4c2f;"><strong><span style="text-decoration: underline;">Learn More</span></strong></span></a></li>
-                    </ul>
-                </div>
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
-                    <p><img src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=800&amp;height=540&amp;name=homepage_industry_healthcare@2x.png" width="800" height="540" loading="lazy" alt="Woman making a payment on her computer. " style="width: 800px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;" srcset="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=400&amp;height=270&amp;name=homepage_industry_healthcare@2x.png 400w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=800&amp;height=540&amp;name=homepage_industry_healthcare@2x.png 800w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=1200&amp;height=810&amp;name=homepage_industry_healthcare@2x.png 1200w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=1600&amp;height=1080&amp;name=homepage_industry_healthcare@2x.png 1600w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=2000&amp;height=1350&amp;name=homepage_industry_healthcare@2x.png 2000w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=2400&amp;height=1620&amp;name=homepage_industry_healthcare@2x.png 2400w" sizes="(max-width: 800px) 100vw, 800px"></p>
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-            <div id="tab2" class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix" style="display: none; opacity: 1;">
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
-                    <h4 id="faster-payments-for-the-lending-industry">Faster Payments for the Lending Industry</h4>
-                    <p>Dwolla empowers lenders to eliminate the manual processes and outdated payment systems that negatively impact payment speed, efficiency and security, and borrower experience.</p>
-                    <ul>
-                        <li><a href="/industries/fintech-payment-solutions/?hsLang=en" rel="noopener"><span style="color: #ca4c2f;"><strong><span style="text-decoration: underline;">Learn More</span></strong></span></a></li>
-                    </ul>
-                </div>
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
-                    <p>&nbsp;</p>
-                    <p><img src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=800&amp;height=541&amp;name=homepage_industry_insurance@2x.png" width="800" height="541" loading="lazy" alt="A group of people sitting at a table, 2 men are shaking hands." style="height: auto; max-width: 100%; width: 800px;" srcset="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=400&amp;height=271&amp;name=homepage_industry_insurance@2x.png 400w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=800&amp;height=541&amp;name=homepage_industry_insurance@2x.png 800w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=1200&amp;height=812&amp;name=homepage_industry_insurance@2x.png 1200w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=1600&amp;height=1082&amp;name=homepage_industry_insurance@2x.png 1600w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=2000&amp;height=1353&amp;name=homepage_industry_insurance@2x.png 2000w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=2400&amp;height=1623&amp;name=homepage_industry_insurance@2x.png 2400w" sizes="(max-width: 800px) 100vw, 800px"></p>
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-            <div id="tab3" class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix" style="display: none; opacity: 1;">
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
-                    <h4 id="revolutionizing-real-estate-payments">Revolutionizing Real Estate Payments</h4>
-                    <p>Dwolla empowers real estate companies to eliminate the legacy technology and outdated payment systems that negatively impact payment speed, cost and security, and vendor and supplier relationships.</p>
-                    <ul>
-                        <li><a href="/industries/property-management-payment-solutions/?hsLang=en" rel="noopener"><span style="color: #ca4c2f;"><strong><span style="text-decoration: underline;">Learn More</span></strong></span></a></li>
-                    </ul>
-                </div>
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
-                    <p>&nbsp;</p>
-                    <p><img src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=800&amp;height=541&amp;name=homepage_industry_real-estate@2x.png" width="800" height="541" loading="lazy" alt="A row of Victorian style homes." style="height: auto; max-width: 100%; width: 800px;" srcset="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=400&amp;height=271&amp;name=homepage_industry_real-estate@2x.png 400w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=800&amp;height=541&amp;name=homepage_industry_real-estate@2x.png 800w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=1200&amp;height=812&amp;name=homepage_industry_real-estate@2x.png 1200w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=1600&amp;height=1082&amp;name=homepage_industry_real-estate@2x.png 1600w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=2000&amp;height=1353&amp;name=homepage_industry_real-estate@2x.png 2000w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=2400&amp;height=1623&amp;name=homepage_industry_real-estate@2x.png 2400w" sizes="(max-width: 800px) 100vw, 800px"></p>
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-            <div id="tab4" class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix" style="display: none; opacity: 1;">
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
-                    <h4 id="secure,-online-payments-for-the-healthcare-industry"><span>Secure, Online Payments for the Healthcare Industry</span><span></span></h4>
-                    <p>Dwolla empowers healthcare companies to eliminate the manual processes and outdated payment systems that negatively impact payment speed, security and patient experience.</p>
-                    <ul>
-                        <li><a href="/industries/healthcare-medtech-online-payments/?hsLang=en" rel="noopener"><span style="color: #ca4c2f;"><strong><span style="text-decoration: underline;">Learn More</span></strong></span></a></li>
-                    </ul>
-                </div>
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
-                    <p>&nbsp;</p>
-                    <p><img src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=800&amp;height=540&amp;name=homepage_industry_financial@2x.png" width="800" height="540" loading="lazy" alt="A group of business individuals shaking and with charts on the table." style="height: auto; max-width: 100%; width: 800px;" srcset="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=400&amp;height=270&amp;name=homepage_industry_financial@2x.png 400w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=800&amp;height=540&amp;name=homepage_industry_financial@2x.png 800w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=1200&amp;height=810&amp;name=homepage_industry_financial@2x.png 1200w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=1600&amp;height=1080&amp;name=homepage_industry_financial@2x.png 1600w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=2000&amp;height=1350&amp;name=homepage_industry_financial@2x.png 2000w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=2400&amp;height=1620&amp;name=homepage_industry_financial@2x.png 2400w" sizes="(max-width: 800px) 100vw, 800px"></p>
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-            <div id="tab5" class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix" style="display: none; opacity: 1;">
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
-                    <h4 id="transforming-payments-in-manufacturing">Transforming Payments in Manufacturing</h4>
-                    <p>Dwolla empowers manufacturing companies to eliminate the manual processes and outdated payment systems that negatively impact payment speed, efficiency and security, and buyer-supplier relationships.</p>
-                    <ul>
-                        <li><a href="/industries/manufacturing?hsLang=en" rel="noopener"><span style="color: #ca4c2f;"><strong><span style="text-decoration: underline;">Learn More</span></strong></span></a></li>
-                    </ul>
-                </div>
-                <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
-                    <p>&nbsp;</p>
-                    <p><img src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=800&amp;height=540&amp;name=homepage_industry_manufacturing@2x.webp" width="800" height="540" loading="lazy" alt="homepage_industry_manufacturing@2x" style="height: auto; max-width: 100%; width: 800px;" srcset="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=400&amp;height=270&amp;name=homepage_industry_manufacturing@2x.webp 400w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=800&amp;height=540&amp;name=homepage_industry_manufacturing@2x.webp 800w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=1200&amp;height=810&amp;name=homepage_industry_manufacturing@2x.webp 1200w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=1600&amp;height=1080&amp;name=homepage_industry_manufacturing@2x.webp 1600w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=2000&amp;height=1350&amp;name=homepage_industry_manufacturing@2x.webp 2000w, https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=2400&amp;height=1620&amp;name=homepage_industry_manufacturing@2x.webp 2400w" sizes="(max-width: 800px) 100vw, 800px"></p>
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="image">
+        <img
+          src="./assets/images/homepage_hero.webp"
+          style="width: 100%; height: auto; padding-bottom: 400px"
+        />
+      </div>
+    </div>
 
-        <!-- <div class="test">
+    <div
+      class="pwr-sec-clients__slider pwr-sec-clients--grid page-center pwr--relative aos-init aos-animate"
+      data-nr-elements="6"
+      data-autoplay="false"
+      data-autoplay-timeout="5000"
+      data-aos="fade-in"
+      data-aos-delay="50"
+    >
+      <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale">
+        <img
+          data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/gasbuddy-logo.svg"
+          class="pwr-sec-clients__logo-img ls-is-cached lazyloaded"
+          alt="gasbuddy-logo"
+          width="100%"
+          height="66"
+          style="object-fit: contain"
+          src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/gasbuddy-logo.svg"
+        />
+      </div>
+      <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale">
+        <img
+          data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/goat-logo.svg"
+          class="pwr-sec-clients__logo-img lazyloaded"
+          alt="goat-logo"
+          width="100%"
+          height="66"
+          style="object-fit: contain"
+          src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/goat-logo.svg"
+        />
+      </div>
+      <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale">
+        <img
+          data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/ibotta-logo.svg"
+          class="pwr-sec-clients__logo-img lazyloaded"
+          alt="ibotta-logo"
+          width="100%"
+          height="66"
+          style="object-fit: contain"
+          src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/ibotta-logo.svg"
+        />
+      </div>
+      <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale">
+        <img
+          data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/masterworks-logo.svg"
+          class="pwr-sec-clients__logo-img lazyloaded"
+          alt="masterworks-logo"
+          width="100%"
+          height="23"
+          style="object-fit: contain"
+          src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/masterworks-logo.svg"
+        />
+      </div>
+      <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale">
+        <img
+          data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/mx-logo.svg"
+          class="pwr-sec-clients__logo-img lazyloaded"
+          alt="mx-logo"
+          width="100%"
+          height="66"
+          style="object-fit: contain"
+          src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/mx-logo.svg"
+        />
+      </div>
+      <div class="item pwr-sec-clients__logo pwr-sec-clients__logo--grayscale">
+        <img
+          data-src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/routable-logo.svg"
+          class="pwr-sec-clients__logo-img lazyloaded"
+          alt="routable-logo"
+          width="100%"
+          height="35"
+          style="object-fit: contain"
+          src="https://7996980.fs1.hubspotusercontent-na1.net/hubfs/7996980/routable-logo.svg"
+        />
+      </div>
+    </div>
+
+    <div
+      class="powering-payment-container widget-type-cell dnd-column"
+      data-widget-type="cell"
+      data-x="0"
+      data-w="12"
+    >
+      <div class="powering-payment-header">
+        <h2 id="powering-payment-header">
+          Powering Payments for Every Industry
+        </h2>
+      </div>
+      <div class="powering-tabs">
+        <ul class="pwr-tabs__tab-wrapper">
+          <li class="pwr-tabs__tab pwr-tabs__tab--active" rel="tab1">
+            Insurance
+          </li>
+          <li class="pwr-tabs__tab" rel="tab2">Lending</li>
+          <li class="pwr-tabs__tab" rel="tab3">Real Estate</li>
+          <li class="pwr-tabs__tab" rel="tab4">Healthcare</li>
+          <li class="pwr-tabs__tab" rel="tab5">Manufacturing</li>
+        </ul>
+        <div class="pwr-form pwr-form--style-1 pwr-tabs__dropdown">
+          <select>
+            <option value="tab1">Insurance</option>
+            <option value="tab2">Lending</option>
+            <option value="tab3">Real Estate</option>
+            <option value="tab4">Healthcare</option>
+            <option value="tab5">Manufacturing</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="pwr-tabs__body pwr--clearfix">
+      <div
+        id="tab1"
+        class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix"
+        style="display: block; opacity: 1"
+        data-active="true"
+      >
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
+          <h4 id="digital-payments-for-the-insurance-industry">
+            Digital Payments for the Insurance Industry
+          </h4>
+          <p>
+            Dwolla empowers insurance companies to eliminate the outdated
+            payment systems and manual processes that negatively impact cash
+            flow, payment predictability, payment security and policyholder
+            experience.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="/industries/insurtech-payment-solutions/?hsLang=en"
+                rel="noopener"
+                ><span style="color: #ca4c2f"
+                  ><strong
+                    ><span style="text-decoration: underline"
+                      >Learn More</span
+                    ></strong
+                  ></span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
+          <p>
+            <img
+              src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=800&amp;height=540&amp;name=homepage_industry_healthcare@2x.png"
+              width="800"
+              height="540"
+              loading="lazy"
+              alt="Woman making a payment on her computer. "
+              style="
+                width: 800px;
+                height: auto;
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+              "
+              srcset="
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=400&amp;height=270&amp;name=homepage_industry_healthcare@2x.png    400w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=800&amp;height=540&amp;name=homepage_industry_healthcare@2x.png    800w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=1200&amp;height=810&amp;name=homepage_industry_healthcare@2x.png  1200w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=1600&amp;height=1080&amp;name=homepage_industry_healthcare@2x.png 1600w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=2000&amp;height=1350&amp;name=homepage_industry_healthcare@2x.png 2000w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_healthcare@2x.png?width=2400&amp;height=1620&amp;name=homepage_industry_healthcare@2x.png 2400w
+              "
+              sizes="(max-width: 800px) 100vw, 800px"
+            />
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div
+        id="tab2"
+        class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix"
+        style="display: none; opacity: 1"
+      >
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
+          <h4 id="faster-payments-for-the-lending-industry">
+            Faster Payments for the Lending Industry
+          </h4>
+          <p>
+            Dwolla empowers lenders to eliminate the manual processes and
+            outdated payment systems that negatively impact payment speed,
+            efficiency and security, and borrower experience.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="/industries/fintech-payment-solutions/?hsLang=en"
+                rel="noopener"
+                ><span style="color: #ca4c2f"
+                  ><strong
+                    ><span style="text-decoration: underline"
+                      >Learn More</span
+                    ></strong
+                  ></span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
+          <p>&nbsp;</p>
+          <p>
+            <img
+              src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=800&amp;height=541&amp;name=homepage_industry_insurance@2x.png"
+              width="800"
+              height="541"
+              loading="lazy"
+              alt="A group of people sitting at a table, 2 men are shaking hands."
+              style="height: auto; max-width: 100%; width: 800px"
+              srcset="
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=400&amp;height=271&amp;name=homepage_industry_insurance@2x.png    400w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=800&amp;height=541&amp;name=homepage_industry_insurance@2x.png    800w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=1200&amp;height=812&amp;name=homepage_industry_insurance@2x.png  1200w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=1600&amp;height=1082&amp;name=homepage_industry_insurance@2x.png 1600w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=2000&amp;height=1353&amp;name=homepage_industry_insurance@2x.png 2000w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_insurance@2x.png?width=2400&amp;height=1623&amp;name=homepage_industry_insurance@2x.png 2400w
+              "
+              sizes="(max-width: 800px) 100vw, 800px"
+            />
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div
+        id="tab3"
+        class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix"
+        style="display: none; opacity: 1"
+      >
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
+          <h4 id="revolutionizing-real-estate-payments">
+            Revolutionizing Real Estate Payments
+          </h4>
+          <p>
+            Dwolla empowers real estate companies to eliminate the legacy
+            technology and outdated payment systems that negatively impact
+            payment speed, cost and security, and vendor and supplier
+            relationships.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="/industries/property-management-payment-solutions/?hsLang=en"
+                rel="noopener"
+                ><span style="color: #ca4c2f"
+                  ><strong
+                    ><span style="text-decoration: underline"
+                      >Learn More</span
+                    ></strong
+                  ></span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
+          <p>&nbsp;</p>
+          <p>
+            <img
+              src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=800&amp;height=541&amp;name=homepage_industry_real-estate@2x.png"
+              width="800"
+              height="541"
+              loading="lazy"
+              alt="A row of Victorian style homes."
+              style="height: auto; max-width: 100%; width: 800px"
+              srcset="
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=400&amp;height=271&amp;name=homepage_industry_real-estate@2x.png    400w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=800&amp;height=541&amp;name=homepage_industry_real-estate@2x.png    800w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=1200&amp;height=812&amp;name=homepage_industry_real-estate@2x.png  1200w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=1600&amp;height=1082&amp;name=homepage_industry_real-estate@2x.png 1600w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=2000&amp;height=1353&amp;name=homepage_industry_real-estate@2x.png 2000w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_real-estate@2x.png?width=2400&amp;height=1623&amp;name=homepage_industry_real-estate@2x.png 2400w
+              "
+              sizes="(max-width: 800px) 100vw, 800px"
+            />
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div
+        id="tab4"
+        class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix"
+        style="display: none; opacity: 1"
+      >
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
+          <h4 id="secure,-online-payments-for-the-healthcare-industry">
+            <span>Secure, Online Payments for the Healthcare Industry</span
+            ><span></span>
+          </h4>
+          <p>
+            Dwolla empowers healthcare companies to eliminate the manual
+            processes and outdated payment systems that negatively impact
+            payment speed, security and patient experience.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="/industries/healthcare-medtech-online-payments/?hsLang=en"
+                rel="noopener"
+                ><span style="color: #ca4c2f"
+                  ><strong
+                    ><span style="text-decoration: underline"
+                      >Learn More</span
+                    ></strong
+                  ></span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
+          <p>&nbsp;</p>
+          <p>
+            <img
+              src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=800&amp;height=540&amp;name=homepage_industry_financial@2x.png"
+              width="800"
+              height="540"
+              loading="lazy"
+              alt="A group of business individuals shaking and with charts on the table."
+              style="height: auto; max-width: 100%; width: 800px"
+              srcset="
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=400&amp;height=270&amp;name=homepage_industry_financial@2x.png    400w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=800&amp;height=540&amp;name=homepage_industry_financial@2x.png    800w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=1200&amp;height=810&amp;name=homepage_industry_financial@2x.png  1200w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=1600&amp;height=1080&amp;name=homepage_industry_financial@2x.png 1600w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=2000&amp;height=1350&amp;name=homepage_industry_financial@2x.png 2000w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_financial@2x.png?width=2400&amp;height=1620&amp;name=homepage_industry_financial@2x.png 2400w
+              "
+              sizes="(max-width: 800px) 100vw, 800px"
+            />
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div
+        id="tab5"
+        class="pwr-rich-text pwr-tabs__content pwr-tabs__content--2col pwr--clearfix"
+        style="display: none; opacity: 1"
+      >
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--left">
+          <h4 id="transforming-payments-in-manufacturing">
+            Transforming Payments in Manufacturing
+          </h4>
+          <p>
+            Dwolla empowers manufacturing companies to eliminate the manual
+            processes and outdated payment systems that negatively impact
+            payment speed, efficiency and security, and buyer-supplier
+            relationships.
+          </p>
+          <ul>
+            <li>
+              <a href="/industries/manufacturing?hsLang=en" rel="noopener"
+                ><span style="color: #ca4c2f"
+                  ><strong
+                    ><span style="text-decoration: underline"
+                      >Learn More</span
+                    ></strong
+                  ></span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="pwr-rich-text pwr-tab__content pwr-tab__content--right">
+          <p>&nbsp;</p>
+          <p>
+            <img
+              src="https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=800&amp;height=540&amp;name=homepage_industry_manufacturing@2x.webp"
+              width="800"
+              height="540"
+              loading="lazy"
+              alt="homepage_industry_manufacturing@2x"
+              style="height: auto; max-width: 100%; width: 800px"
+              srcset="
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=400&amp;height=270&amp;name=homepage_industry_manufacturing@2x.webp    400w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=800&amp;height=540&amp;name=homepage_industry_manufacturing@2x.webp    800w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=1200&amp;height=810&amp;name=homepage_industry_manufacturing@2x.webp  1200w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=1600&amp;height=1080&amp;name=homepage_industry_manufacturing@2x.webp 1600w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=2000&amp;height=1350&amp;name=homepage_industry_manufacturing@2x.webp 2000w,
+                https://www.dwolla.com/hs-fs/hubfs/homepage_industry_manufacturing@2x.webp?width=2400&amp;height=1620&amp;name=homepage_industry_manufacturing@2x.webp 2400w
+              "
+              sizes="(max-width: 800px) 100vw, 800px"
+            />
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="test">
             <h1 style="font-size: large; color: #ca4c24;">Folami Abiola</h1>
         </div> -->
 
-        <div class="pwr-sec-stats vanilla pwr-sec-stats--with-intro pwr--light      lazyloaded" style="background-color: rgba(241, 247, 250, 1.0);margin-top: 500px; padding-bottom: 200px; ">
-            <div class="page-center pwr--align-c">
-                <div class="pwr-sec-stats__intro-sec pwr-sec__intro-sec">
-                    <h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-stats__title aos-init aos-animate" id="leading-open-banking-in-north-america" data-aos="fade-in" data-aos-delay="50">Leading Open Banking in North America</h2>
-                </div>
-            </div>
-            <div class="pwr-sec-stats__wrapper ">
-                <div class="pwr-stats pwr-stats--centered pwr--neg-margin-lr-10 pwr--clearfix">
-                    <div class="pwr-stat aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                        <span class="pwr-stat__number" style="visibility: visible;">40</span><span class="pwr-stat__suffix">+</span>
-                        <span class="pwr-stat__title pwr-stat__title--wide">Partners</span>
-                    </div>
-                    <div class="pwr-stat aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                        <span class="pwr-stat__number" style="visibility: visible;">20</span><span class="pwr-stat__suffix">M+</span>
-                        <span class="pwr-stat__title pwr-stat__title--wide">End-Users</span>
-                    </div>
-                    <div class="pwr-stat aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                        <span class="pwr-stat__number" style="visibility: visible;">121</span><span class="pwr-stat__suffix">M+</span>
-                        <span class="pwr-stat__title pwr-stat__title--wide">Annual Transaction Volumes</span>
-                    </div>
-                    <div class="pwr-stat aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                        <span class="pwr-stat__number" style="visibility: visible;">$50</span><span class="pwr-stat__suffix">B+</span>
-                        <span class="pwr-stat__title pwr-stat__title--wide">Processed in 2023</span>
-                    </div>
-                </div>
-            </div>
+    <div
+      class="pwr-sec-stats vanilla pwr-sec-stats--with-intro pwr--light lazyloaded"
+      style="
+        background-color: rgba(241, 247, 250, 1);
+        margin-top: 500px;
+        padding-bottom: 200px;
+      "
+    >
+      <div class="page-center pwr--align-c">
+        <div class="pwr-sec-stats__intro-sec pwr-sec__intro-sec">
+          <h2
+            class="pwr-sec__title pwr-heading-style--default pwr-sec-stats__title aos-init aos-animate"
+            id="leading-open-banking-in-north-america"
+            data-aos="fade-in"
+            data-aos-delay="50"
+          >
+            Leading Open Banking in North America
+          </h2>
         </div>
+      </div>
+      <div class="pwr-sec-stats__wrapper">
+        <div
+          class="pwr-stats pwr-stats--centered pwr--neg-margin-lr-10 pwr--clearfix"
+        >
+          <div
+            class="pwr-stat aos-init aos-animate"
+            data-aos="fade-in"
+            data-aos-delay="50"
+          >
+            <span class="pwr-stat__number" style="visibility: visible">40</span
+            ><span class="pwr-stat__suffix">+</span>
+            <span class="pwr-stat__title pwr-stat__title--wide">Partners</span>
+          </div>
+          <div
+            class="pwr-stat aos-init aos-animate"
+            data-aos="fade-in"
+            data-aos-delay="50"
+          >
+            <span class="pwr-stat__number" style="visibility: visible">20</span
+            ><span class="pwr-stat__suffix">M+</span>
+            <span class="pwr-stat__title pwr-stat__title--wide">End-Users</span>
+          </div>
+          <div
+            class="pwr-stat aos-init aos-animate"
+            data-aos="fade-in"
+            data-aos-delay="50"
+          >
+            <span class="pwr-stat__number" style="visibility: visible">121</span
+            ><span class="pwr-stat__suffix">M+</span>
+            <span class="pwr-stat__title pwr-stat__title--wide"
+              >Annual Transaction Volumes</span
+            >
+          </div>
+          <div
+            class="pwr-stat aos-init aos-animate"
+            data-aos="fade-in"
+            data-aos-delay="50"
+          >
+            <span class="pwr-stat__number" style="visibility: visible">$50</span
+            ><span class="pwr-stat__suffix">B+</span>
+            <span class="pwr-stat__title pwr-stat__title--wide"
+              >Processed in 2023</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-section dnd_area-row-3-padding">
-            <div class="row-fluid ">
-                <div class="span12 widget-span widget-type-cell dnd-column" data-widget-type="cell" data-x="0" data-w="12">
-                    <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
-                        <div class="row-fluid ">
-                        <div class="span12 widget-span widget-type-custom_widget dnd-module"  data-widget-type="custom_widget" data-x="0" data-w="12">
-                            <div id="hs_cos_wrapper_widget_1704223857954" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                                <div class="pwr-sec-steps  vanilla pwr-mh-group-byRow pwr-sec-steps--with-intro pwr-sec-steps--centered pwr--align-c pwr--light pwr--padding-t-0 pwr--padding-b-0  lazyloaded">
-                                    <div class="page-center pwr--relative" >
-                                    <div class="pwr-sec-steps__intro-sec pwr-sec__intro-sec">
-                                        <h2 class="pwr-sec__title pwr-heading-style--default pwr-sec__title--narrow pwr-sec-steps__title aos-init aos-animate" id="your-go-to-payments-partner" data-aos="fade-in" data-aos-delay="50">Your Go-To Payments Partner</h2>
-                                        <span class="pwr-rich-text pwr-sec__desc pwr-sec-steps__desc aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                                            <header>
-                                                <p>Dwolla enables businesses to digitally transform their payments through a single solution.</p>
-                                            </header>
-                                        </span>
-                                    </div>
-                                    <div class="row-fluid">
-                                        <div class="span12 pwr--relative">
-                                            <div style="display: flex;" class="pwr-steps   pwr-steps--4 pwr--neg-margin-lr-10 pwr--clearfix">
-                                                <div class="pwr-step aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID0" style="height: 86px;">
-                                                    <div class="pwr-step__count">1</div>
-                                                </div>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID1" style="height: 43px;"><span class="pwr-step__title pwr-step__title--has-desc">Single API</span></div>
-                                                <span class="pwr-rich-text pwr-step__desc" data-pwr-mh="mhID2" style="height: 239px;"><span>Dwolla unifies the payment operations experience through a single solution, enabling streamlined transactions, reducing complexity and enhancing visibility into financial activity.</span></span>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID3" style="height: 1px;"></div>
-                                                </div>
-                                                <div class="pwr-step aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID0" style="height: 86px;">
-                                                    <div class="pwr-step__count">2</div>
-                                                </div>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID1" style="height: 43px;"><span class="pwr-step__title pwr-step__title--has-desc">Cost Savings</span></div>
-                                                <span class="pwr-rich-text pwr-step__desc" data-pwr-mh="mhID2" style="height: 239px;"><span>By transitioning from legacy technologies and manual processes, businesses can save money through reduced labor costs, faster processing times, lower transaction fees, improved accuracy and enhanced security and compliance measures.</span></span>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID3" style="height: 1px;"></div>
-                                                </div>
-                                                <div class="pwr-step aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID0" style="height: 86px;">
-                                                    <div class="pwr-step__count">3</div>
-                                                </div>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID1" style="height: 43px;"><span class="pwr-step__title pwr-step__title--has-desc">Seamless Bank Integration</span></div>
-                                                <span class="pwr-rich-text pwr-step__desc" data-pwr-mh="mhID2" style="height: 239px;"><span>Dwolla streamlines integrations across payment methods and financial institutions to simplify initial integration, ongoing maintenance and future development, as well as enhance overall operational agility and financial transparency.</span></span>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID3" style="height: 1px;"></div>
-                                                </div>
-                                                <div class="pwr-step aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID0" style="height: 86px;">
-                                                    <div class="pwr-step__count">4</div>
-                                                </div>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID1" style="height: 43px;"><span class="pwr-step__title pwr-step__title--has-desc">Enterprise Grade Security</span></div>
-                                                <span class="pwr-rich-text pwr-step__desc" data-pwr-mh="mhID2" style="height: 239px;"><span>Protect your sensitive data with Dwolla’s variety of security measures, including encryption and tokenization. Dwolla maintains a SOC 2 Type 2 report and SOC 3 report.</span></span>
-                                                <div class="pwr-mh--wrapper" data-pwr-mh="mhID3" style="height: 1px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
+    <div
+      class="row-fluid-wrapper row-depth-1 row-number-10 dnd-section dnd_area-row-3-padding"
+    >
+      <div class="row-fluid">
+        <div
+          class="span12 widget-span widget-type-cell dnd-column"
+          data-widget-type="cell"
+          data-x="0"
+          data-w="12"
+        >
+          <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
+            <div class="row-fluid">
+              <div
+                class="span12 widget-span widget-type-custom_widget dnd-module"
+                data-widget-type="custom_widget"
+                data-x="0"
+                data-w="12"
+              >
+                <div
+                  id="hs_cos_wrapper_widget_1704223857954"
+                  class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                  data-hs-cos-general-type="widget"
+                  data-hs-cos-type="module"
+                >
+                  <div
+                    class="pwr-sec-steps vanilla pwr-mh-group-byRow pwr-sec-steps--with-intro pwr-sec-steps--centered pwr--align-c pwr--light pwr--padding-t-0 pwr--padding-b-0 lazyloaded"
+                  >
+                    <div class="page-center pwr--relative">
+                      <div class="pwr-sec-steps__intro-sec pwr-sec__intro-sec">
+                        <h2
+                          class="pwr-sec__title pwr-heading-style--default pwr-sec__title--narrow pwr-sec-steps__title aos-init aos-animate"
+                          id="your-go-to-payments-partner"
+                          data-aos="fade-in"
+                          data-aos-delay="50"
+                        >
+                          Your Go-To Payments Partner
+                        </h2>
+                        <span
+                          class="pwr-rich-text pwr-sec__desc pwr-sec-steps__desc aos-init aos-animate"
+                          data-aos="fade-in"
+                          data-aos-delay="50"
+                        >
+                          <header>
+                            <p>
+                              Dwolla enables businesses to digitally transform
+                              their payments through a single solution.
+                            </p>
+                          </header>
+                        </span>
+                      </div>
+                      <div class="row-fluid">
+                        <div class="span12 pwr--relative">
+                          <div
+                            style="display: flex"
+                            class="pwr-steps pwr-steps--4 pwr--neg-margin-lr-10 pwr--clearfix"
+                          >
+                            <div
+                              class="pwr-step aos-init aos-animate"
+                              data-aos="fade-in"
+                              data-aos-delay="50"
+                            >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID0"
+                                style="height: 86px"
+                              >
+                                <div class="pwr-step__count">1</div>
+                              </div>
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID1"
+                                style="height: 43px"
+                              >
+                                <span
+                                  class="pwr-step__title pwr-step__title--has-desc"
+                                  >Single API</span
+                                >
+                              </div>
+                              <span
+                                class="pwr-rich-text pwr-step__desc"
+                                data-pwr-mh="mhID2"
+                                style="height: 239px"
+                                ><span
+                                  >Dwolla unifies the payment operations
+                                  experience through a single solution, enabling
+                                  streamlined transactions, reducing complexity
+                                  and enhancing visibility into financial
+                                  activity.</span
+                                ></span
+                              >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID3"
+                                style="height: 1px"
+                              ></div>
                             </div>
+                            <div
+                              class="pwr-step aos-init aos-animate"
+                              data-aos="fade-in"
+                              data-aos-delay="50"
+                            >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID0"
+                                style="height: 86px"
+                              >
+                                <div class="pwr-step__count">2</div>
+                              </div>
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID1"
+                                style="height: 43px"
+                              >
+                                <span
+                                  class="pwr-step__title pwr-step__title--has-desc"
+                                  >Cost Savings</span
+                                >
+                              </div>
+                              <span
+                                class="pwr-rich-text pwr-step__desc"
+                                data-pwr-mh="mhID2"
+                                style="height: 239px"
+                                ><span
+                                  >By transitioning from legacy technologies and
+                                  manual processes, businesses can save money
+                                  through reduced labor costs, faster processing
+                                  times, lower transaction fees, improved
+                                  accuracy and enhanced security and compliance
+                                  measures.</span
+                                ></span
+                              >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID3"
+                                style="height: 1px"
+                              ></div>
+                            </div>
+                            <div
+                              class="pwr-step aos-init aos-animate"
+                              data-aos="fade-in"
+                              data-aos-delay="50"
+                            >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID0"
+                                style="height: 86px"
+                              >
+                                <div class="pwr-step__count">3</div>
+                              </div>
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID1"
+                                style="height: 43px"
+                              >
+                                <span
+                                  class="pwr-step__title pwr-step__title--has-desc"
+                                  >Seamless Bank Integration</span
+                                >
+                              </div>
+                              <span
+                                class="pwr-rich-text pwr-step__desc"
+                                data-pwr-mh="mhID2"
+                                style="height: 239px"
+                                ><span
+                                  >Dwolla streamlines integrations across
+                                  payment methods and financial institutions to
+                                  simplify initial integration, ongoing
+                                  maintenance and future development, as well as
+                                  enhance overall operational agility and
+                                  financial transparency.</span
+                                ></span
+                              >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID3"
+                                style="height: 1px"
+                              ></div>
+                            </div>
+                            <div
+                              class="pwr-step aos-init aos-animate"
+                              data-aos="fade-in"
+                              data-aos-delay="50"
+                            >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID0"
+                                style="height: 86px"
+                              >
+                                <div class="pwr-step__count">4</div>
+                              </div>
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID1"
+                                style="height: 43px"
+                              >
+                                <span
+                                  class="pwr-step__title pwr-step__title--has-desc"
+                                  >Enterprise Grade Security</span
+                                >
+                              </div>
+                              <span
+                                class="pwr-rich-text pwr-step__desc"
+                                data-pwr-mh="mhID2"
+                                style="height: 239px"
+                                ><span
+                                  >Protect your sensitive data with Dwolla’s
+                                  variety of security measures, including
+                                  encryption and tokenization. Dwolla maintains
+                                  a SOC 2 Type 2 report and SOC 3 report.</span
+                                ></span
+                              >
+                              <div
+                                class="pwr-mh--wrapper"
+                                data-pwr-mh="mhID3"
+                                style="height: 1px"
+                              ></div>
+                            </div>
+                          </div>
                         </div>
-                        <!--end widget-span -->
-                        </div>
-                        <!--end row-->
+                      </div>
                     </div>
-                    <!--end row-wrapper -->
+                  </div>
                 </div>
-                <!--end widget-span -->
+              </div>
+              <!--end widget-span -->
             </div>
             <!--end row-->
+          </div>
+          <!--end row-wrapper -->
         </div>
+        <!--end widget-span -->
+      </div>
+      <!--end row-->
+    </div>
 
-        <div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-section dnd_area-row-4-padding dnd_area-row-4-background-gradient">
-            <div class="row-fluid ">
-                <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
-                    <div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
-                        <div class="row-fluid ">
-                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-                            <div id="hs_cos_wrapper_widget_1704303131248" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                                <div class="pwr-sec-cta vanilla pwr-sec-cta--vertical pwr--dark pwr--sec-padding-t-sm pwr--sec-padding-b-sm  lazyloaded" style="background-color: rgba(45, 45, 72, 0.2); ">
-                                    <div class="page-center pwr--align-c pwr--relative">
-                                    <h3 style="font-size: 30px; word-spacing:0%;" class="pwr-sec-cta__title pwr-heading-style--default pwr-sec-cta__title--vertical pwr-sec__title--narrow pwr--toc-ignore aos-init aos-animate" id="ready-to-get-started" data-aos="fade-in" data-aos-delay="50"><strong>Ready to get started?</strong> </h3>
-                                    <span class="pwr-rich-text pwr-sec-cta__desc pwr-sec-cta__desc--vertical aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                                    <span style="color: white; padding-right: 70px;">Schedule a consultation with our team.</span></span>
-                                    <div class="pwr-sec-cta__cta--vertical pwr-cta pwr-cta--custom-04 aos-init aos-animate" data-aos="fade-in" data-aos-delay="50">
-                                        <a class="cta_button " href="https://www.dwolla.com/contact?hsLang=en" title="Button Talk to a Payments Expert">Talk to a Payments Expert</a>                    
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end widget-span -->
-                        </div>
-                        <!--end row-->
+    <div
+      class="row-fluid-wrapper row-depth-1 row-number-12 dnd-section dnd_area-row-4-padding dnd_area-row-4-background-gradient"
+    >
+      <div class="row-fluid">
+        <div
+          class="span12 widget-span widget-type-cell dnd-column"
+          style=""
+          data-widget-type="cell"
+          data-x="0"
+          data-w="12"
+        >
+          <div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
+            <div class="row-fluid">
+              <div
+                class="span12 widget-span widget-type-custom_widget dnd-module"
+                style=""
+                data-widget-type="custom_widget"
+                data-x="0"
+                data-w="12"
+              >
+                <div
+                  id="hs_cos_wrapper_widget_1704303131248"
+                  class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                  style=""
+                  data-hs-cos-general-type="widget"
+                  data-hs-cos-type="module"
+                >
+                  <div
+                    class="pwr-sec-cta vanilla pwr-sec-cta--vertical pwr--dark pwr--sec-padding-t-sm pwr--sec-padding-b-sm lazyloaded"
+                    style="background-color: rgba(45, 45, 72, 0.2)"
+                  >
+                    <div class="page-center pwr--align-c pwr--relative">
+                      <h3
+                        style="font-size: 30px; word-spacing: 0%"
+                        class="pwr-sec-cta__title pwr-heading-style--default pwr-sec-cta__title--vertical pwr-sec__title--narrow pwr--toc-ignore aos-init aos-animate"
+                        id="ready-to-get-started"
+                        data-aos="fade-in"
+                        data-aos-delay="50"
+                      >
+                        <strong>Ready to get started?</strong>
+                      </h3>
+                      <span
+                        class="pwr-rich-text pwr-sec-cta__desc pwr-sec-cta__desc--vertical aos-init aos-animate"
+                        data-aos="fade-in"
+                        data-aos-delay="50"
+                      >
+                        <span style="color: white; padding-right: 70px"
+                          >Schedule a consultation with our team.</span
+                        ></span
+                      >
+                      <div
+                        class="pwr-sec-cta__cta--vertical pwr-cta pwr-cta--custom-04 aos-init aos-animate"
+                        data-aos="fade-in"
+                        data-aos-delay="50"
+                      >
+                        <a
+                          class="cta_button"
+                          href="https://www.dwolla.com/contact?hsLang=en"
+                          title="Button Talk to a Payments Expert"
+                          >Talk to a Payments Expert</a
+                        >
+                      </div>
                     </div>
-                    <!--end row-wrapper -->
+                  </div>
                 </div>
-                <!--end widget-span -->
+              </div>
+              <!--end widget-span -->
             </div>
             <!--end row-->
+          </div>
+          <!--end row-wrapper -->
         </div>
+        <!--end widget-span -->
+      </div>
+      <!--end row-->
+    </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
