@@ -26,15 +26,16 @@
 
 .navbar a {
   color: white;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .collapse {
-  padding-left: 200px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .dwolla-logo {
-  padding-left: 120px;
+  padding-left: 150px;
 }
 
 .navbar .navbar-toggler {
@@ -47,7 +48,7 @@
   width: 100%;
   height: 100%;
   background-color: #2d2d48;
-  padding-top: 20%;
+  padding-top: 200px;
 }
 
 .left-heros {
@@ -63,9 +64,8 @@
 @media screen and (max-width: 900px) {
   .left-heros,
   .image,
-  .navbar,
-  .ul {
-    width: 70%;
+  .navbar {
+    width: 80%;
   }
 }
 
